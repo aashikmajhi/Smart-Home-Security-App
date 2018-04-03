@@ -20,7 +20,7 @@ TODO(as on dd-mm-yy 11/05/2017):<br>
 
 As the app is made open source you can contribute to the TODO list and send a PR.
 Work is always acknowledged.
-THe app is continuously under dev process.
+The app is continuously under dev process.
 
 
 <> for Open Source
