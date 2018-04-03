@@ -1,7 +1,7 @@
 package com.example.admin.loginsignupapp;
 
 
-
+/******************************** IMPORTING DEPENDENCIES******************************************/
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -19,7 +19,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-
+/******************** Main Activity Class ****************/
 public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
 
     private Button btnChangeEmail, btnChangePassword, btnSendResetEmail, btnRemoveUser,
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
                 }
             }
         };
-
+        /*************** Adding Buttons *************/
         btnChangeEmail = (Button) findViewById(R.id.change_email_button);
         btnChangePassword = (Button) findViewById(R.id.change_password_button);
         btnSendResetEmail = (Button) findViewById(R.id.sending_pass_reset_button);
@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()) {
-                                        Toast.makeText(MainActivity.this, "Your profile is deleted:( Create a account now!", Toast.LENGTH_SHORT).show();
+                                        Toast.makeText(MainActivity.this, "Your profile is deleted:( Please Create a new account to use our services!", Toast.LENGTH_SHORT).show();
                                         startActivity(new Intent(MainActivity.this, SignupActivity.class));
                                         finish();
                                         progressBar.setVisibility(View.GONE);

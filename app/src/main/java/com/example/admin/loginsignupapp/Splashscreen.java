@@ -1,8 +1,5 @@
 package com.example.admin.loginsignupapp;
 
-/**
- * Created by Admin on 04-06-2017.
- */
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.PixelFormat;
@@ -46,7 +43,7 @@ public class Splashscreen extends Activity {
                 try {
                     int waited = 0;
                     // Splash screen pause time
-                    while (waited < 8000) {
+                    while (waited < 5000) {
                         sleep(100);
                         waited += 100;
                     }
