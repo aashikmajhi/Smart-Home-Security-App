@@ -17,6 +17,7 @@ TODO(as on dd-mm-yy 11/05/2017):<br>
 
 - OTP API<br>
 - App UI customization<br>
+- Implement geofencing and give user the choice to geofence a particular area .
 
 As the app is made open source you can contribute to the TODO list and send a PR.
 Work is always acknowledged.
