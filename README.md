@@ -8,19 +8,20 @@ The app houses the users profile along with the functions required for system to
 
 Specifications:<br>
 
-1)Requires Android 4.3+<br>
-2)Firrebase auth built
+- Requires Android 4.3+<br>
+- Firebase auth built
 
-TODO(as on dd-mm-yy 11/05/2017):<br>
+TODO(as on dd-mm-yy 04/05/2018):<br>
 
 
-1)Interface with Arduino Mega<br>
-2)OTP API<br>
-3)App UI customization<br>
+
+- OTP API<br>
+- App UI customization<br>
+- Implement geofencing and give user the choice to geofence a particular area .
 
 As the app is made open source you can contribute to the TODO list and send a PR.
 Work is always acknowledged.
-THe app is continuously under dev process.
+The app is continuously under dev process.
 
 
 <> for Open Source
