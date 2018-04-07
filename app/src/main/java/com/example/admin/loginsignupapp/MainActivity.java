@@ -292,4 +292,8 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         }
     }
 
+    public void AllGeofencesActivity(View view) {
+        Intent intent = new Intent (this, AllGeofencesActivity.class);
+        startActivity(intent);
+    }
 }
