@@ -10,6 +10,7 @@ Specifications:<br>
 
 - Requires Android 4.3+<br>
 - Firebase auth built
+- Includes Geofencing
 
 TODO(as on dd-mm-yy 04/05/2018):<br>
 
@@ -17,6 +18,10 @@ TODO(as on dd-mm-yy 04/05/2018):<br>
 
 - OTP API<br>
 - App UI customization<br>
+
+
+Completed :
+
 - Implement geofencing and give user the choice to geofence a particular area .
 
 As the app is made open source you can contribute to the TODO list and send a PR.
