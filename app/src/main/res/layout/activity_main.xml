@@ -259,6 +259,28 @@
             android:textStyle="bold"
             android:onClick="AllGeofencesActivity"/>
 
+         <Button
+            android:id="@+id/btn_locker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_locker_data"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="WebMainActivity"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="GENERATE OTP"
+            android:id="@+id/button"
+            android:onClick="sendNotification"/>
+
+
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/ic_input_add"
             android:layout_width="50dp"
