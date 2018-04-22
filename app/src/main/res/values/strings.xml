@@ -87,6 +87,7 @@
   <string name="Toast.Error">There was an error. Please try again.</string>
     <string name="app_title">Smart Anti Breach</string>
     <string name="btn_locker_data">LOCK/UNLOCK LOCKER</string>
+    <string name="btn_locker_history">Locker Status History</string>
 
 
 </resources>

@@ -325,5 +325,9 @@ NotificationManager mNotificationManager =
         Intent intent = new Intent (this, WebMainActivity.class);
         startActivity(intent);
     }
+    public void History(View view) {
+        Intent intent = new Intent (this, History.class);
+        startActivity(intent);
+    }
 
 }

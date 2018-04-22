@@ -90,6 +90,11 @@
             android:label="@string/app_name"
 
             android:configChanges="orientation|keyboardHidden"/>
+        <activity
+            android:name=".History"
+            android:label="@string/app_name"
+
+            android:configChanges="orientation|keyboardHidden"/>
         <service
             android:name=".FirebaseMessagingService"
             android:enabled="true"

@@ -280,6 +280,16 @@
             android:id="@+id/button"
             android:onClick="sendNotification"/>
 
+        <Button
+            android:id="@+id/btn_locker_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_locker_history"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="History"/>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/ic_input_add"
