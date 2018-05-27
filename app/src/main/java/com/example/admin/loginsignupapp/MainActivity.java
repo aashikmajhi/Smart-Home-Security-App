@@ -329,5 +329,9 @@ NotificationManager mNotificationManager =
         Intent intent = new Intent (this, History.class);
         startActivity(intent);
     }
+    public void GeofenceMainActivity(View view) {
+        Intent intent = new Intent (this, GeofenceMainActivity.class);
+        startActivity(intent);
+    }
 
 }

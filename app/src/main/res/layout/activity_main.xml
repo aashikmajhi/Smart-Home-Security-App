@@ -89,7 +89,9 @@
             android:layout_width="match_parent"
             android:layout_height="fill_parent"/> -->
     </LinearLayout>
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -290,6 +292,16 @@
             android:textColor="@android:color/white"
             android:textStyle="bold"
             android:onClick="History"/>
+        <Button
+            android:id="@+id/btn_locker_geofencemain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/btn_locker_geofencemain"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:onClick="GeofenceMainActivity"/>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/ic_input_add"
@@ -301,5 +313,5 @@
 
 
     </LinearLayout>
-
+    </ScrollView>
 </android.support.design.widget.CoordinatorLayout>
