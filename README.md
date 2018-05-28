@@ -11,7 +11,7 @@ Specifications:<br>
 - Requires Android 4.3+<br>
 - Firebase auth built
 - Includes Geofencing
-- Added scroll view previouly not present for landscaape modes in app.
+- Added scroll view previouly not present for landscape modes in app.
 
 TODO(as on dd-mm-yy 05/28/2018):<br>
 
