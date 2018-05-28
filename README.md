@@ -11,18 +11,19 @@ Specifications:<br>
 - Requires Android 4.3+<br>
 - Firebase auth built
 - Includes Geofencing
+- Added scroll view previouly not present for landscaape modes in app.
 
-TODO(as on dd-mm-yy 04/05/2018):<br>
+TODO(as on dd-mm-yy 05/28/2018):<br>
 
 
 
-- OTP API<br>
+
 - App UI customization<br>
 
 
 Completed :
 
-- Implement geofencing and give user the choice to geofence a particular area .
+- Implement geofencing and give user the choice to geofence a particular area [NEW]using lat long method or an interactive map.
 
 As the app is made open source you can contribute to the TODO list and send a PR.
 Work is always acknowledged.
